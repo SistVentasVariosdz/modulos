@@ -1,0 +1,46 @@
+Line 75: Class FunctionsButtons.FunctButt of control FunctButt2 was not a loaded control class.
+Line 92: Class Mantenimientos.MantFunc of control MantFunc1 was not a loaded control class.
+Line 122: Class FunctionsButtons.FunctButt of control FunctButt1 was not a loaded control class.
+Line 207: Class MSComCtl2.DTPicker of control dtpFec_Entrega_Fin was not a loaded control class.
+Line 221: Class MSComCtl2.DTPicker of control dtpFec_Entrega_Inicio was not a loaded control class.
+Line 518: Class FunctionsButtons.FunctButt of control FunctBuscar was not a loaded control class.
+Line 765: Class GridEX20.GridEX of control gexLista was not a loaded control class.
+Line 857: Class MDIEXTENDERLibCtl.MDIExtend of control MDIExtend1 was not a loaded control class.
+Line 81: The property name _ExtentX in FunctButt2 is invalid.
+Line 82: The property name _ExtentY in FunctButt2 is invalid.
+Line 83: The property name Custom in FunctButt2 is invalid.
+Line 84: The property name Orientacion in FunctButt2 is invalid.
+Line 85: The property name Style in FunctButt2 is invalid.
+Line 86: The property name Language in FunctButt2 is invalid.
+Line 87: The property name TypeImageList in FunctButt2 is invalid.
+Line 88: The property name ControlWidth in FunctButt2 is invalid.
+Line 89: The property name ControlHeigth in FunctButt2 is invalid.
+Line 90: The property name ControlSeparator in FunctButt2 is invalid.
+Line 98: The property name _ExtentX in MantFunc1 is invalid.
+Line 99: The property name _ExtentY in MantFunc1 is invalid.
+Line 100: The property name Custom in MantFunc1 is invalid.
+Line 101: The property name Orientacion in MantFunc1 is invalid.
+Line 102: The property name Style in MantFunc1 is invalid.
+Line 103: The property name Language in MantFunc1 is invalid.
+Line 104: The property name TypeImageList in MantFunc1 is invalid.
+Line 128: The property name _ExtentX in FunctButt1 is invalid.
+Line 129: The property name _ExtentY in FunctButt1 is invalid.
+Line 81: The property name _ExtentX in FunctButt2 is invalid.
+Line 82: The property name _ExtentY in FunctButt2 is invalid.
+Line 83: The property name Custom in FunctButt2 is invalid.
+Line 84: The property name Orientacion in FunctButt2 is invalid.
+Line 85: The property name Style in FunctButt2 is invalid.
+Line 86: The property name Language in FunctButt2 is invalid.
+Line 87: The property name TypeImageList in FunctButt2 is invalid.
+Line 88: The property name ControlWidth in FunctButt2 is invalid.
+Line 89: The property name ControlHeigth in FunctButt2 is invalid.
+Line 90: The property name ControlSeparator in FunctButt2 is invalid.
+Line 98: The property name _ExtentX in MantFunc1 is invalid.
+Line 99: The property name _ExtentY in MantFunc1 is invalid.
+Line 100: The property name Custom in MantFunc1 is invalid.
+Line 101: The property name Orientacion in MantFunc1 is invalid.
+Line 102: The property name Style in MantFunc1 is invalid.
+Line 103: The property name Language in MantFunc1 is invalid.
+Line 104: The property name TypeImageList in MantFunc1 is invalid.
+Line 128: The property name _ExtentX in FunctButt1 is invalid.
+Line 129: The property name _ExtentY in FunctButt1 is invalid.

@@ -1,0 +1,8 @@
+Línea 26: la clase MSComctlLib.ImageList del control ImageList1 no era una clase de control cargada.
+Línea 29: el nombre de la propiedad _ExtentX de ImageList1 no es válido.
+Línea 30: el nombre de la propiedad _ExtentY de ImageList1 no es válido.
+Línea 32: el nombre de la propiedad ImageWidth de ImageList1 no es válido.
+Línea 33: el nombre de la propiedad ImageHeight de ImageList1 no es válido.
+Línea 34: el nombre de la propiedad MaskColor de ImageList1 no es válido.
+Línea 35: el nombre de la propiedad _Version de ImageList1 no es válido.
+Línea 74: el nombre de la propiedad Images de ImageList1 no es válido.

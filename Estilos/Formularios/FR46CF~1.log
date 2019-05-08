@@ -1,0 +1,33 @@
+Line 30: Class GridEX20.GridEX of control gexLista was not a loaded control class.
+Line 154: Class Mantenimientos.MantFunc of control MantFunc1 was not a loaded control class.
+Line 36: The property name _ExtentX in gexLista is invalid.
+Line 37: The property name _ExtentY in gexLista is invalid.
+Line 38: The property name Version in gexLista is invalid.
+Line 39: The property name AutomaticSort in gexLista is invalid.
+Line 40: The property name BoundColumnIndex in gexLista is invalid.
+Line 41: The property name ReplaceColumnIndex in gexLista is invalid.
+Line 42: The property name AllowEdit in gexLista is invalid.
+Line 43: The property name GroupByBoxVisible in gexLista is invalid.
+Line 44: The property name ColumnHeaderHeight in gexLista is invalid.
+Line 45: The property name IntProp1 in gexLista is invalid.
+Line 46: The property name IntProp2 in gexLista is invalid.
+Line 47: The property name IntProp7 in gexLista is invalid.
+Line 48: The property name ColumnsCount in gexLista is invalid.
+Line 49: The property name Column(1) in gexLista is invalid.
+Line 50: The property name Column(2) in gexLista is invalid.
+Line 51: The property name FormatStylesCount in gexLista is invalid.
+Line 52: The property name FormatStyle(1) in gexLista is invalid.
+Line 53: The property name FormatStyle(2) in gexLista is invalid.
+Line 54: The property name FormatStyle(3) in gexLista is invalid.
+Line 55: The property name FormatStyle(4) in gexLista is invalid.
+Line 56: The property name FormatStyle(5) in gexLista is invalid.
+Line 57: The property name FormatStyle(6) in gexLista is invalid.
+Line 58: The property name ImageCount in gexLista is invalid.
+Line 59: The property name PrinterProperties in gexLista is invalid.
+Line 160: The property name _ExtentX in MantFunc1 is invalid.
+Line 161: The property name _ExtentY in MantFunc1 is invalid.
+Line 162: The property name Custom in MantFunc1 is invalid.
+Line 163: The property name Orientacion in MantFunc1 is invalid.
+Line 164: The property name Style in MantFunc1 is invalid.
+Line 165: The property name Language in MantFunc1 is invalid.
+Line 166: The property name TypeImageList in MantFunc1 is invalid.

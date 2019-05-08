@@ -1,0 +1,24 @@
+Línea 14: la clase CRVIEWERLibCtl.CRViewer del control CRViewer1 no era una clase de control cargada.
+Línea 20: el nombre de la propiedad DisplayGroupTree de CRViewer1 no es válido.
+Línea 21: el nombre de la propiedad DisplayToolbar de CRViewer1 no es válido.
+Línea 22: el nombre de la propiedad EnableGroupTree de CRViewer1 no es válido.
+Línea 23: el nombre de la propiedad EnableNavigationControls de CRViewer1 no es válido.
+Línea 24: el nombre de la propiedad EnableStopButton de CRViewer1 no es válido.
+Línea 25: el nombre de la propiedad EnablePrintButton de CRViewer1 no es válido.
+Línea 26: el nombre de la propiedad EnableZoomControl de CRViewer1 no es válido.
+Línea 27: el nombre de la propiedad EnableCloseButton de CRViewer1 no es válido.
+Línea 28: el nombre de la propiedad EnableProgressControl de CRViewer1 no es válido.
+Línea 29: el nombre de la propiedad EnableSearchControl de CRViewer1 no es válido.
+Línea 30: el nombre de la propiedad EnableRefreshButton de CRViewer1 no es válido.
+Línea 31: el nombre de la propiedad EnableDrillDown de CRViewer1 no es válido.
+Línea 32: el nombre de la propiedad EnableAnimationControl de CRViewer1 no es válido.
+Línea 33: el nombre de la propiedad EnableSelectExpertButton de CRViewer1 no es válido.
+Línea 34: el nombre de la propiedad EnableToolbar de CRViewer1 no es válido.
+Línea 35: el nombre de la propiedad DisplayBorder de CRViewer1 no es válido.
+Línea 36: el nombre de la propiedad DisplayTabs de CRViewer1 no es válido.
+Línea 37: el nombre de la propiedad DisplayBackgroundEdge de CRViewer1 no es válido.
+Línea 38: el nombre de la propiedad SelectionFormula de CRViewer1 no es válido.
+Línea 39: el nombre de la propiedad EnablePopupMenu de CRViewer1 no es válido.
+Línea 40: el nombre de la propiedad EnableExportButton de CRViewer1 no es válido.
+Línea 41: el nombre de la propiedad EnableSearchExpertButton de CRViewer1 no es válido.
+Línea 42: el nombre de la propiedad EnableHelpButton de CRViewer1 no es válido.

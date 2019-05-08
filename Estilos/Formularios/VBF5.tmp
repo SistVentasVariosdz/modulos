@@ -1,0 +1,492 @@
+VERSION 5.00
+Object = "{53A95C1B-ED4B-46C8-880A-B248CE857C32}#1.1#0"; "FuncButt.ocx"
+Begin VB.Form FrmManTelasDatTecNew 
+   Caption         =   "Datos Tecnicos Tela"
+   ClientHeight    =   9780
+   ClientLeft      =   60
+   ClientTop       =   345
+   ClientWidth     =   13935
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   9780
+   ScaleWidth      =   13935
+   StartUpPosition =   3  'Windows Default
+   Begin VB.TextBox TxtCurva_Tenido 
+      Height          =   285
+      Left            =   1800
+      TabIndex        =   246
+      Top             =   735
+      Width           =   855
+   End
+   Begin VB.TextBox TxtRel_Banos_Kilos 
+      Height          =   285
+      Left            =   2520
+      TabIndex        =   245
+      Top             =   435
+      Width           =   735
+   End
+   Begin VB.TextBox TxtRel_Banos_Litro 
+      Height          =   285
+      Left            =   1800
+      TabIndex        =   244
+      Top             =   435
+      Width           =   735
+   End
+   Begin VB.TextBox TxtDes_Proveedor 
+      Height          =   285
+      Left            =   3120
+      TabIndex        =   243
+      Top             =   1335
+      Width           =   3735
+   End
+   Begin VB.TextBox TxtCod_Proveedor 
+      Height          =   285
+      Left            =   1800
+      TabIndex        =   242
+      Top             =   1335
+      Width           =   1335
+   End
+   Begin VB.TextBox TxtDes_TipoReceta 
+      Height          =   285
+      Left            =   2520
+      TabIndex        =   241
+      Top             =   1035
+      Width           =   4335
+   End
+   Begin VB.TextBox TxtCod_TipoReceta 
+      Height          =   285
+      Left            =   1800
+      TabIndex        =   240
+      Top             =   1035
+      Width           =   735
+   End
+   Begin VB.TextBox TxtCod_Maquina_Tinto 
+      Height          =   285
+      Left            =   1800
+      TabIndex        =   239
+      Top             =   120
+      Width           =   1455
+   End
+   Begin VB.TextBox TxtObservaciones_Relevantes 
+      Height          =   525
+      Left            =   2280
+      MultiLine       =   -1  'True
+      ScrollBars      =   2  'Vertical
+      TabIndex        =   130
+      Top             =   8640
+      Width           =   4575
+   End
+   Begin VB.TextBox TxtObservaciones_Considerables 
+      Height          =   525
+      Left            =   9360
+      MultiLine       =   -1  'True
+      ScrollBars      =   2  'Vertical
+      TabIndex        =   131
+      Top             =   8640
+      Width           =   4455
+   End
+   Begin VB.Frame Frame13 
+      Caption         =   "Acabado / Rama - TERMOFIJADO"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   2175
+      Left            =   9360
+      TabIndex        =   218
+      Top             =   1800
+      Width           =   4575
+      Begin VB.TextBox TxtRama_Termo_Ancho_Cadena 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   36
+         Top             =   825
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Densidad 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   34
+         Top             =   510
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Ancho_Entrada 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   32
+         Top             =   195
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_SobreAlimSup 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   42
+         Top             =   1725
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Temperatura 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   40
+         Top             =   1440
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Velocidad 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   38
+         Top             =   1125
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Densidad_Salida 
+         Height          =   285
+         Left            =   3630
+         TabIndex        =   41
+         Top             =   1440
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Ancho_Salida 
+         Height          =   285
+         Left            =   3630
+         TabIndex        =   39
+         Top             =   1125
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_Presion 
+         Height          =   285
+         Left            =   3630
+         TabIndex        =   37
+         Top             =   825
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_SobreAlimInf 
+         Height          =   285
+         Left            =   3630
+         TabIndex        =   33
+         Top             =   195
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Termo_SobreAlimSal 
+         Height          =   285
+         Left            =   3630
+         TabIndex        =   35
+         Top             =   510
+         Width           =   855
+      End
+      Begin VB.ComboBox cmbRama_Termo_Vapor 
+         Height          =   315
+         Left            =   3630
+         TabIndex        =   43
+         Top             =   1725
+         Width           =   855
+      End
+      Begin VB.Label Label105 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho Cadena"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   230
+         Top             =   915
+         Width           =   1065
+      End
+      Begin VB.Label Label104 
+         AutoSize        =   -1  'True
+         Caption         =   "Densidad Entrada"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   229
+         Top             =   585
+         Width           =   1275
+      End
+      Begin VB.Label Label103 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho Entrada"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   228
+         Top             =   285
+         Width           =   1065
+      End
+      Begin VB.Label Label102 
+         AutoSize        =   -1  'True
+         Caption         =   "SobreAlim. Sup."
+         Height          =   195
+         Left            =   120
+         TabIndex        =   227
+         Top             =   1830
+         Width           =   1125
+      End
+      Begin VB.Label Label101 
+         AutoSize        =   -1  'True
+         Caption         =   "Temperatura"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   226
+         Top             =   1530
+         Width           =   900
+      End
+      Begin VB.Label Label100 
+         AutoSize        =   -1  'True
+         Caption         =   "Velocidad"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   225
+         Top             =   1230
+         Width           =   705
+      End
+      Begin VB.Label Label99 
+         AutoSize        =   -1  'True
+         Caption         =   "Densidad Salida"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   224
+         Top             =   1560
+         Width           =   1155
+      End
+      Begin VB.Label Label98 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho Salida"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   223
+         Top             =   1230
+         Width           =   945
+      End
+      Begin VB.Label Label97 
+         AutoSize        =   -1  'True
+         Caption         =   "Presion"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   222
+         Top             =   930
+         Width           =   525
+      End
+      Begin VB.Label Label96 
+         AutoSize        =   -1  'True
+         Caption         =   "SobreAlim. Inf."
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   221
+         Top             =   330
+         Width           =   1020
+      End
+      Begin VB.Label Label95 
+         AutoSize        =   -1  'True
+         Caption         =   "SobreAlim. Salida"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   220
+         Top             =   630
+         Width           =   1230
+      End
+      Begin VB.Label Label94 
+         AutoSize        =   -1  'True
+         Caption         =   "Vapor"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   219
+         Top             =   1890
+         Width           =   420
+      End
+   End
+   Begin VB.Frame Frame12 
+      Caption         =   "Acabado / Rama - RESINADO"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   2175
+      Left            =   4680
+      TabIndex        =   205
+      Top             =   1800
+      Width           =   4695
+      Begin VB.TextBox TxtRama_Resinado_Ancho_Cadena 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   24
+         Top             =   825
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Densidad 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   22
+         Top             =   510
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Ancho_Entrada 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   20
+         Top             =   195
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_SobreAlimSup 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   30
+         Top             =   1725
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Temperatura 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   28
+         Top             =   1440
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Velocidad 
+         Height          =   285
+         Left            =   1440
+         TabIndex        =   26
+         Top             =   1125
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Densidad_Salida 
+         Height          =   285
+         Left            =   3720
+         TabIndex        =   29
+         Top             =   1440
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Ancho_Salida 
+         Height          =   285
+         Left            =   3720
+         TabIndex        =   27
+         Top             =   1125
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_Presion 
+         Height          =   285
+         Left            =   3720
+         TabIndex        =   25
+         Top             =   825
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_SobreAlimInf 
+         Height          =   285
+         Left            =   3720
+         TabIndex        =   21
+         Top             =   195
+         Width           =   855
+      End
+      Begin VB.TextBox TxtRama_Resinado_SobreAlimSal 
+         Height          =   285
+         Left            =   3720
+         TabIndex        =   23
+         Top             =   510
+         Width           =   855
+      End
+      Begin VB.ComboBox cmbRama_Resinado_Vapor 
+         Height          =   315
+         Left            =   3720
+         TabIndex        =   31
+         Top             =   1725
+         Width           =   855
+      End
+      Begin VB.Label Label92 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho Cadena"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   217
+         Top             =   915
+         Width           =   1065
+      End
+      Begin VB.Label Label91 
+         AutoSize        =   -1  'True
+         Caption         =   "Densidad Entrada"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   216
+         Top             =   585
+         Width           =   1275
+      End
+      Begin VB.Label Label90 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho Entrada"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   215
+         Top             =   285
+         Width           =   1065
+      End
+      Begin VB.Label Label89 
+         AutoSize        =   -1  'True
+         Caption         =   "SobreAlim. Sup."
+         Height          =   195
+         Left            =   120
+         TabIndex        =   214
+         Top             =   1830
+         Width           =   1125
+      End
+      Begin VB.Label Label88 
+         AutoSize        =   -1  'True
+         Caption         =   "Temperatura"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   213
+         Top             =   1530
+         Width           =   900
+      End
+      Begin VB.Label Label87 
+         AutoSize        =   -1  'True
+         Caption         =   "Velocidad"
+         Height          =   195
+         Left            =   120
+         TabIndex        =   212
+         Top             =   1230
+         Width           =   705
+      End
+      Begin VB.Label Label86 
+         AutoSize        =   -1  'True
+         Caption         =   "Densidad Salida"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   211
+         Top             =   1560
+         Width           =   1155
+      End
+      Begin VB.Label Label85 
+         AutoSize        =   -1  'True
+         Caption         =   "Ancho Salida"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   210
+         Top             =   1230
+         Width           =   945
+      End
+      Begin VB.Label Label84 
+         AutoSize        =   -1  'True
+         Caption         =   "Presion"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   209
+         Top             =   930
+         Width           =   525
+      End
+      Begin VB.Label Label83 
+         AutoSize        =   -1  'True
+         Caption         =   "SobreAlim. Inf."
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   208
+         Top             =   330
+         Width           =   1020
+      End
+      Begin VB.Label Label82 
+         AutoSize        =   -1  'True
+         Caption         =   "SobreAlim. Salida"
+         Height          =   195
+         Left            =   2400
+         TabIndex        =   207
+         Top             =   630

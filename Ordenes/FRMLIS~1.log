@@ -1,0 +1,12 @@
+Línea 53: la clase MSDataGridLib.DataGrid del control dGridLista no era una clase de control cargada.
+Línea 59: el nombre de la propiedad _ExtentX de dGridLista no es válido.
+Línea 60: el nombre de la propiedad _ExtentY de dGridLista no es válido.
+Línea 61: el nombre de la propiedad _Version de dGridLista no es válido.
+Línea 62: el nombre de la propiedad HeadLines de dGridLista no es válido.
+Línea 63: el nombre de la propiedad RowHeight de dGridLista no es válido.
+Línea 72: el nombre de la propiedad HeadFont de dGridLista no es válido.
+Línea 82: el nombre de la propiedad ColumnCount de dGridLista no es válido.
+Línea 95: el nombre de la propiedad Column00 de dGridLista no es válido.
+Línea 108: el nombre de la propiedad Column01 de dGridLista no es válido.
+Línea 109: el nombre de la propiedad SplitCount de dGridLista no es válido.
+Línea 115: el nombre de la propiedad Split0 de dGridLista no es válido.
