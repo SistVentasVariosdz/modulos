@@ -1,0 +1,42 @@
+Línea 83: la clase ECNVB6WINCTRL.ucButton_02 del control btnAceptar no era una clase de control cargada.
+Línea 113: la clase ECNVB6WINCTRL.ucButton_02 del control btnParam no era una clase de control cargada.
+Línea 143: la clase ECNVB6WINCTRL.ucButton_02 del control btnCancelar no era una clase de control cargada.
+Línea 89: el nombre de la propiedad _ExtentX de btnAceptar no es válido.
+Línea 90: el nombre de la propiedad _ExtentY de btnAceptar no es válido.
+Línea 91: el nombre de la propiedad Icon de btnAceptar no es válido.
+Línea 92: el nombre de la propiedad Caption de btnAceptar no es válido.
+Línea 93: el nombre de la propiedad iNonThemeStyle de btnAceptar no es válido.
+Línea 95: el nombre de la propiedad Object.ToolTipText de btnAceptar no es válido.
+Línea 96: el nombre de la propiedad ToolTipTitle de btnAceptar no es válido.
+Línea 97: el nombre de la propiedad ToolTipIcon de btnAceptar no es válido.
+Línea 98: el nombre de la propiedad ToolTipType de btnAceptar no es válido.
+Línea 99: el nombre de la propiedad ttForeColor de btnAceptar no es válido.
+Línea 109: el nombre de la propiedad MaskColor de btnAceptar no es válido.
+Línea 110: el nombre de la propiedad UseMaskColor de btnAceptar no es válido.
+Línea 111: el nombre de la propiedad RoundedBordersByTheme de btnAceptar no es válido.
+Línea 119: el nombre de la propiedad _ExtentX de btnParam no es válido.
+Línea 120: el nombre de la propiedad _ExtentY de btnParam no es válido.
+Línea 121: el nombre de la propiedad Icon de btnParam no es válido.
+Línea 122: el nombre de la propiedad Caption de btnParam no es válido.
+Línea 123: el nombre de la propiedad iNonThemeStyle de btnParam no es válido.
+Línea 125: el nombre de la propiedad Object.ToolTipText de btnParam no es válido.
+Línea 126: el nombre de la propiedad ToolTipTitle de btnParam no es válido.
+Línea 127: el nombre de la propiedad ToolTipIcon de btnParam no es válido.
+Línea 128: el nombre de la propiedad ToolTipType de btnParam no es válido.
+Línea 129: el nombre de la propiedad ttForeColor de btnParam no es válido.
+Línea 139: el nombre de la propiedad MaskColor de btnParam no es válido.
+Línea 140: el nombre de la propiedad UseMaskColor de btnParam no es válido.
+Línea 141: el nombre de la propiedad RoundedBordersByTheme de btnParam no es válido.
+Línea 149: el nombre de la propiedad _ExtentX de btnCancelar no es válido.
+Línea 150: el nombre de la propiedad _ExtentY de btnCancelar no es válido.
+Línea 151: el nombre de la propiedad Icon de btnCancelar no es válido.
+Línea 152: el nombre de la propiedad Caption de btnCancelar no es válido.
+Línea 153: el nombre de la propiedad iNonThemeStyle de btnCancelar no es válido.
+Línea 155: el nombre de la propiedad Object.ToolTipText de btnCancelar no es válido.
+Línea 156: el nombre de la propiedad ToolTipTitle de btnCancelar no es válido.
+Línea 157: el nombre de la propiedad ToolTipIcon de btnCancelar no es válido.
+Línea 158: el nombre de la propiedad ToolTipType de btnCancelar no es válido.
+Línea 159: el nombre de la propiedad ttForeColor de btnCancelar no es válido.
+Línea 169: el nombre de la propiedad MaskColor de btnCancelar no es válido.
+Línea 170: el nombre de la propiedad UseMaskColor de btnCancelar no es válido.
+Línea 171: el nombre de la propiedad RoundedBordersByTheme de btnCancelar no es válido.

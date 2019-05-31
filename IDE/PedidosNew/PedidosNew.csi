@@ -1,0 +1,11 @@
+[History]
+1=#P0#=mb	#P1#=btnLocal_Click	#P2#=PedidosNew/frm003_ECNCONEXION/btnLocal_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161012205900	#P7#=0	#P8#=1	.
+2=#P0#=mb	#P1#=Class_Initialize	#P2#=PedidosNew/cls003_ECNCONEXION/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161012205257	#P7#=0	#P8#=1	.
+3=#P0#=mb	#P1#=Main	#P2#=PedidosNew/Module1/Main	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161012205740	#P7#=0	#P8#=23	.
+4=#P0#=mb	#P1#=WINAPPPATH	#P2#=PedidosNew/cls003_ECNCONEXION/WINAPPPATH [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20161012204039	#P7#=0	#P8#=2	.
+5=#P0#=mb	#P1#=WIN_RESULT	#P2#=PedidosNew/cls003_ECNCONEXION/WIN_RESULT [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20161012204020	#P7#=0	#P8#=2	.
+6=#P0#=mb	#P1#=ConectarBD1	#P2#=PedidosNew/Module1/ConectarBD1	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161012203835	#P7#=0	#P8#=15	.
+7=#P0#=mb	#P1#=cmdOK_Click	#P2#=PedidosNew/FrmLogin/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161012201042	#P7#=0	#P8#=1	.
+8=#P0#=mb	#P1#=MDIForm_Resize	#P2#=PedidosNew/MDIPrincipal/MDIForm_Resize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161012200842	#P7#=0	#P8#=4	.
+9=#P0#=mb	#P1#=MDIForm_Load	#P2#=PedidosNew/MDIPrincipal/MDIForm_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161012195725	#P7#=0	#P8#=71	.
+10=#P0#=mb	#P1#=Valida_usuario	#P2#=PedidosNew/FrmLogin/Valida_usuario	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161012194309	#P7#=0	#P8#=35	.

@@ -1,0 +1,513 @@
+VERSION 5.00
+Begin VB.PropertyPage ppgImageList 
+   Caption         =   "Images"
+   ClientHeight    =   4545
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   7290
+   BeginProperty Font 
+      Name            =   "Tahoma"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   4545
+   ScaleWidth      =   7290
+   Begin VB.CommandButton cmdMoveDown 
+      Caption         =   "6"
+      BeginProperty Font 
+         Name            =   "Webdings"
+         Size            =   18
+         Charset         =   2
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   390
+      Left            =   2880
+      TabIndex        =   4
+      Top             =   1890
+      Width           =   435
+   End
+   Begin VB.CommandButton cmdMoveUp 
+      Caption         =   "5"
+      BeginProperty Font 
+         Name            =   "Webdings"
+         Size            =   18
+         Charset         =   2
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   390
+      Left            =   2880
+      TabIndex        =   3
+      Top             =   1500
+      Width           =   435
+   End
+   Begin VB.CommandButton cmdAction 
+      Caption         =   "&Quitar"
+      Height          =   375
+      Index           =   1
+      Left            =   4350
+      TabIndex        =   2
+      Top             =   90
+      Width           =   855
+   End
+   Begin VB.CommandButton cmdAction 
+      Caption         =   "&Agregar"
+      Height          =   375
+      Index           =   0
+      Left            =   3360
+      TabIndex        =   1
+      Top             =   90
+      Width           =   975
+   End
+   Begin VB.ListBox lstImages 
+      Height          =   4350
+      Left            =   60
+      TabIndex        =   0
+      Top             =   90
+      Width           =   2775
+   End
+   Begin VB.Label Label1 
+      BorderStyle     =   1  'Fixed Single
+      Height          =   75
+      Left            =   3360
+      TabIndex        =   5
+      Top             =   510
+      Width           =   3765
+   End
+   Begin ECNVB6WINCTRL.ucImage ucImage1 
+      Height          =   3345
+      Left            =   3540
+      Top             =   870
+      Width           =   3435
+      _ExtentX        =   6059
+      _ExtentY        =   5900
+      bData           =   0   'False
+      Filename        =   ""
+      eScale          =   0
+      lContrast       =   0
+      lBrightness     =   0
+      lAlpha          =   100
+      bGrayScale      =   0   'False
+      lAngle          =   0
+      bFlipH          =   0   'False
+      bFlipV          =   0   'False
+   End
+   Begin VB.Shape Shape1 
+      BackColor       =   &H00E0E0E0&
+      BackStyle       =   1  'Opaque
+      BorderColor     =   &H00808080&
+      BorderWidth     =   2
+      Height          =   3735
+      Left            =   2610
+      Shape           =   1  'Square
+      Top             =   690
+      Width           =   5295
+   End
+End
+Attribute VB_Name = "ppgImageList"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
+Private Const FILTER_PICTURES As String = "Pictures|*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.dib;*.rle;*.jpe;*.jfif;*.emf;*.wmf;*.tif;*.tiff;*.ico;*.cur"
+
+Private Const MAX_PATH = 260
+Private Const MAX_FILE = 260
+
+Private Enum EOpenFile
+    OFN_READONLY = &H1
+    OFN_OVERWRITEPROMPT = &H2
+    OFN_HIDEREADONLY = &H4
+    OFN_NOCHANGEDIR = &H8
+    OFN_SHOWHELP = &H10
+    OFN_ENABLEHOOK = &H20
+    OFN_ENABLETEMPLATE = &H40
+    OFN_ENABLETEMPLATEHANDLE = &H80
+    OFN_NOVALIDATE = &H100
+    OFN_ALLOWMULTISELECT = &H200
+    OFN_EXTENSIONDIFFERENT = &H400
+    OFN_PATHMUSTEXIST = &H800
+    OFN_FILEMUSTEXIST = &H1000
+    OFN_CREATEPROMPT = &H2000
+    OFN_SHAREAWARE = &H4000
+    OFN_NOREADONLYRETURN = &H8000&
+    OFN_NOTESTFILECREATE = &H10000
+    OFN_NONETWORKBUTTON = &H20000
+    OFN_NOLONGNAMES = &H40000
+    OFN_EXPLORER = &H80000
+    OFN_NODEREFERENCELINKS = &H100000
+    OFN_LONGNAMES = &H200000
+End Enum
+
+Private Type OPENFILENAME
+    lStructSize As Long          ' Filled with UDT size
+    hWndOwner As Long            ' Tied to Owner
+    hInstance As Long            ' Ignored (used only by templates)
+    lpstrFilter As String        ' Tied to Filter
+    lpstrCustomFilter As String  ' Ignored (exercise for reader)
+    nMaxCustFilter As Long       ' Ignored (exercise for reader)
+    nFilterIndex As Long         ' Tied to FilterIndex
+    lpstrFile As String          ' Tied to FileName
+    nMaxFile As Long             ' Handled internally
+    lpstrFileTitle As String     ' Tied to FileTitle
+    nMaxFileTitle As Long        ' Handled internally
+    lpstrInitialDir As String    ' Tied to InitDir
+    lpstrTitle As String         ' Tied to DlgTitle
+    flags As Long                ' Tied to Flags
+    nFileOffset As Integer       ' Ignored (exercise for reader)
+    nFileExtension As Integer    ' Ignored (exercise for reader)
+    lpstrDefExt As String        ' Tied to DefaultExt
+    lCustData As Long            ' Ignored (needed for hooks)
+    lpfnHook As Long             ' Ignored (good luck with hooks)
+    lpTemplateName As Long       ' Ignored (good luck with templates)
+End Type
+
+Private Declare Function GetFileTitle Lib "COMDLG32" Alias "GetFileTitleA" (ByVal szFile As String, ByVal szTitle As String, ByVal cbBuf As Long) As Long
+Private Declare Function GetOpenFileName Lib "COMDLG32" Alias "GetOpenFileNameA" (file As OPENFILENAME) As Long
+Private Declare Function lstrlen Lib "kernel32" Alias "lstrlenA" (ByVal lpString As String) As Long
+
+Private Type tFiles
+    sName           As String
+    bvData()        As Byte
+End Type
+
+Private Declare Function VarPtrArray Lib "msvbvm60.dll" Alias "VarPtr" (Ptr() As Any) As Long
+Private Declare Sub CopyMemory Lib "kernel32" Alias "RtlMoveMemory" (Destination As Any, Source As Any, ByVal Length As Long)
+    
+Private m_tvFiles() As tFiles
+Private m_oUCImageList As ucImageList
+Private m_oUCImage As ucImage
+
+Private Function VBGetOpenFileName(Filename As String, _
+       Optional FileTitle As String, _
+       Optional FileMustExist As Boolean = True, _
+       Optional MultiSelect As Boolean = False, _
+       Optional ReadOnly As Boolean = False, _
+       Optional HideReadOnly As Boolean = False, _
+       Optional Filter As String = "All (*.*)| *.*", _
+       Optional FilterIndex As Long = 1, _
+       Optional InitDir As String, _
+       Optional DlgTitle As String, _
+       Optional DefaultExt As String, _
+       Optional Owner As Long = -1, _
+       Optional flags As Long = 0) As Boolean
+
+    Dim opfile As OPENFILENAME, S As String, afFlags As Long
+  
+    With opfile
+        .lStructSize = Len(opfile)
+        
+        .flags = (-FileMustExist * OFN_FILEMUSTEXIST) Or _
+           (-MultiSelect * OFN_ALLOWMULTISELECT) Or _
+           (-ReadOnly * OFN_READONLY) Or _
+           (-HideReadOnly * OFN_HIDEREADONLY) Or _
+           (flags And CLng(Not (OFN_ENABLEHOOK Or _
+           OFN_ENABLETEMPLATE)))
+           
+        If Owner <> -1 Then .hWndOwner = Owner
+        .lpstrInitialDir = InitDir
+        .lpstrDefExt = DefaultExt
+        .lpstrTitle = DlgTitle
+    
+        ' To make Windows-style filter, replace | and : with nulls
+        Dim ch As String, i As Integer
+        For i = 1 To Len(Filter)
+            ch = Mid$(Filter, i, 1)
+            If ch = "|" Or ch = ":" Then
+                S = S & vbNullChar
+            Else
+                S = S & ch
+            End If
+        Next
+        
+        S = S & vbNullChar & vbNullChar
+        .lpstrFilter = S
+        .nFilterIndex = FilterIndex
+
+        ' Pad file and file title buffers to maximum path
+        S = Filename & String$(MAX_PATH - Len(Filename), 0)
+        .lpstrFile = S
+        .nMaxFile = MAX_PATH
+        S = FileTitle & String$(MAX_FILE - Len(FileTitle), 0)
+        .lpstrFileTitle = S
+        .nMaxFileTitle = MAX_FILE
+        ' All other fields set to zero
+    
+        If GetOpenFileName(opfile) = 1 Then
+            ' Success
+            VBGetOpenFileName = True
+            Filename = StrZToStr(.lpstrFile)
+            FileTitle = StrZToStr(.lpstrFileTitle)
+            flags = .flags
+            ' Return the filter index
+            FilterIndex = .nFilterIndex
+            ' Look up the filter the user selected and return that
+            Filter = FilterLookup(.lpstrFilter, FilterIndex)
+            If (.flags And OFN_READONLY) Then ReadOnly = True
+        End If
+    End With
+End Function
+
+Private Function StrZToStr(S As String) As String
+    StrZToStr = Left$(S, lstrlen(S))
+End Function
+
+Private Function FilterLookup(ByVal sFilters As String, ByVal iCur As Long) As String
+    Dim iStart As Long, iEnd As Long, S As String
+    iStart = 1
+    If sFilters = "" Then Exit Function
+    Do
+        ' Cut out both parts marked by null character
+        iEnd = InStr(iStart, sFilters, vbNullChar)
+        If iEnd = 0 Then Exit Function
+        iEnd = InStr(iEnd + 1, sFilters, vbNullChar)
+        If iEnd Then
+            S = Mid$(sFilters, iStart, iEnd - iStart)
+        Else
+            S = Mid$(sFilters, iStart)
+        End If
+        iStart = iEnd + 1
+        If iCur = 1 Then
+            FilterLookup = S
+            Exit Function
+        End If
+        iCur = iCur - 1
+    Loop While iCur
+End Function
+
+Private Sub cmdAction_Click(Index As Integer)
+    Dim sFile       As String
+    Dim svName()    As String
+    Dim bvData()    As Byte
+    Dim lIndex      As Long
+    
+    Select Case Index
+        Case 0 '//Add Picture
+            If VBGetOpenFileName(sFile, _
+               Filter:=FILTER_PICTURES, _
+               Owner:=PropertyPage.hwnd) Then
+                If LoadStream(sFile, bvData) Then
+                    svName = Split(sFile, "\")
+                    sFile = svName(UBound(svName))
+                    If AddData(bvData, sFile) Then
+                        PropertyPage.Changed = True
+                        lIndex = UBound(m_tvFiles)
+                        With lstImages
+                            .AddItem m_tvFiles(lIndex).sName
+                            .ItemData(.ListCount - 1) = lIndex
+                            .ListIndex = .ListCount - 1
+                        End With
+                    End If
+                End If
+            End If
+            
+        Case 1 '//Remove Picture
+            With lstImages
+                If .ListIndex > -1 Then
+                    Call DeleteData(.ItemData(.ListIndex))
+                    Call .RemoveItem(.ListIndex)
+                    PropertyPage.Changed = True
+                End If
+            End With
+    End Select
+    
+    lstImages_Click
+    
+End Sub
+
+Private Function LoadStream(ByVal sFile As String, ByRef bvData() As Byte) As Boolean
+    Dim iFile       As Integer
+
+    On Local Error GoTo LoadStream_Error
+
+    iFile = FreeFile
+    Open sFile For Binary Access Read As iFile
+    ReDim bvData(LOF(iFile) - 1)
+    Get iFile, , bvData
+    Close iFile
+    LoadStream = True
+
+LoadStream_Error:
+End Function
+
+Private Sub cmdMoveDown_Click()
+    Dim tTmpFiles As tFiles
+    Dim lIndex As Long
+    
+    With lstImages
+        If .ListIndex < .ListCount - 1 Then
+            lIndex = .ListIndex
+            tTmpFiles = m_tvFiles(.ItemData(.ListIndex) + 1)
+            m_tvFiles(.ItemData(.ListIndex) + 1) = m_tvFiles(.ItemData(.ListIndex))
+            m_tvFiles(.ItemData(.ListIndex)) = tTmpFiles
+            PropertyPage.Changed = True
+            Call PropertyPage_ApplyChanges
+            Call PropertyPage_SelectionChanged
+            DoEvents
+            .ListIndex = lIndex + 1
+        End If
+    End With
+End Sub
+
+Private Sub cmdMoveUp_Click()
+    Dim tTmpFiles As tFiles
+    Dim lIndex As Long
+    
+    With lstImages
+        If .ListIndex > 0 Then
+            lIndex = .ListIndex
+            tTmpFiles = m_tvFiles(.ItemData(.ListIndex) - 1)
+            m_tvFiles(.ItemData(.ListIndex) - 1) = m_tvFiles(.ItemData(.ListIndex))
+            m_tvFiles(.ItemData(.ListIndex)) = tTmpFiles
+            PropertyPage.Changed = True
+            Call PropertyPage_ApplyChanges
+            Call PropertyPage_SelectionChanged
+            DoEvents
+            .ListIndex = lIndex - 1
+        End If
+    End With
+End Sub
+
+Private Sub lstImages_Click()
+    Dim bvData() As Byte
+    On Error Resume Next
+    bvData = m_tvFiles(lstImages.ItemData(lstImages.ListIndex)).bvData
+    m_oUCImage.LoadImageFromStream bvData
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+    Dim bvData()    As Byte
+    Dim i           As Long
+    
+    Set m_oUCImageList = SelectedControls(0)
+    
+    If Not m_oUCImageList Is Nothing Then
+        bvData = m_oUCImageList.ppgGetStream
+        Call UnpackData(bvData)
+    
+        With lstImages
+            Call .Clear
+            If IsArrayDim(VarPtrArray(m_tvFiles)) Then
+                For i = 0 To UBound(m_tvFiles)
+                    .AddItem m_tvFiles(i).sName
+                    .ItemData(.ListCount - 1) = i
+                Next
+                .ListIndex = 0
+            End If
+            ucImage1.ScaleMode = eScaleDown
+            ucImage1.Move 3840, 660, 2835, 3735
+        End With
+    End If
+    
+End Sub
+
+Private Sub PropertyPage_ApplyChanges()
+    Dim bvData()    As Byte
+    bvData = PackData
+    Call m_oUCImageList.ppgSetStream(bvData)
+End Sub
+
+Private Function PackData() As Byte()
+    Dim cBag        As New PropertyBag
+    Dim i           As Long
+    Dim lCount      As Long
+
+    If Not IsArrayDim(VarPtrArray(m_tvFiles)) Then
+        Exit Function
+    End If
+    
+    With cBag
+        For i = 0 To UBound(m_tvFiles)
+            If IsArrayDim(VarPtrArray(m_tvFiles(i).bvData)) Then
+                .WriteProperty "FILE_" & lCount, m_tvFiles(i).bvData
+                .WriteProperty "NAME_" & lCount, m_tvFiles(i).sName
+                lCount = lCount + 1
+            End If
+        Next
+        Call .WriteProperty("Index", lCount)
+        PackData = .Contents
+    End With
+    
+End Function
+
+Private Function UnpackData(ByRef bvData() As Byte) As Boolean
+    Dim cBag        As New PropertyBag
+    Dim i           As Long
+    Dim lCount      As Long
+    
+    If Not IsArrayDim(VarPtrArray(bvData)) Then
+        Exit Function
+    End If
+    
+    With cBag
+        .Contents = bvData
+    
+        lCount = .ReadProperty("Index", 0)
+        If lCount = 0 Then Exit Function
+        lCount = lCount - 1
+    
+        ReDim m_tvFiles(lCount)
+        For i = 0 To lCount
+            m_tvFiles(i).bvData = .ReadProperty("FILE_" & i)
+            m_tvFiles(i).sName = .ReadProperty("NAME_" & i)
+        Next
+    End With
+    
+    UnpackData = True
+End Function
+
+Private Function AddData(ByRef bvData() As Byte, ByVal sName As String) As Boolean
+    Dim lIndex      As Long
+    
+    If Not IsArrayDim(VarPtrArray(bvData)) Then
+        Exit Function
+    End If
+    
+    If IsArrayDim(VarPtrArray(m_tvFiles)) Then
+        lIndex = UBound(m_tvFiles) + 1
+    Else
+        lIndex = 0
+    End If
+    
+    ReDim Preserve m_tvFiles(lIndex)
+    
+    With m_tvFiles(lIndex)
+        .bvData = bvData
+        .sName = sName
+    End With
+    
+    AddData = True
+End Function
+
+Private Function DeleteData(ByVal lIndex As Long) As Boolean
+    
+    If IsArrayDim(VarPtrArray(m_tvFiles)) Then
+        If lIndex >= 0 Then
+            If lIndex <= UBound(m_tvFiles) Then
+                Erase m_tvFiles(lIndex).bvData
+                DeleteData = True
+            End If
+        End If
+    End If
+    
+End Function
+
+Private Function IsArrayDim(ByVal lpArray As Long) As Boolean
+    Dim lAddress    As Long
+    
+    Call CopyMemory(lAddress, ByVal lpArray, &H4)
+    IsArrayDim = Not (lAddress = 0)
+End Function
+

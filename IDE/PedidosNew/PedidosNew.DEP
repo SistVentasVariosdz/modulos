@@ -1,0 +1,153 @@
+[Version]
+Version=1.2.0.24
+
+[PedidosNew.exe <000A>]
+Dest=$(AppPath)
+Date=09/11/2016
+Time=13:18
+Version=1.2.0.24
+CABFilename=PedidosNew.CAB
+CABINFFile=PedidosNew.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=VB6ES.DLL
+Uses8=apigid32.dll
+Uses9=APIGUIDE.DLL
+Uses10=MSBIND.DLL
+Uses11=msstdfmt.dll
+Uses12=MSDBRPTR.DLL
+Uses13=msado26.tlb
+Uses14=scrrun.dll
+Uses15=MDIExtender.ocx
+Uses16=LibraryVB.dll
+Uses17=MSWORD.OLB
+Uses18=wshom.ocx
+Uses19=MSADODC.OCX
+Uses20=MSCOMCTL.OCX
+Uses21=MSDATGRD.OCX
+Uses22=MSDATLST.OCX
+Uses23=COMDLG32.OCX
+Uses24=ssdw3b32.ocx
+Uses25=FuncButt.ocx
+Uses26=Mantenimientos.ocx
+Uses27=MSCOMCT2.OCX
+Uses28=MSFLXGRD.OCX
+Uses29=THREED32.OCX
+Uses30=MSMASK32.OCX
+Uses31=labels.ocx
+Uses32=TABCTL32.OCX
+Uses33=MSHFLXGD.OCX
+Uses34=GridEX20.ocx
+Uses35=IGToolBars50.ocx
+Uses36=floatbutton.ocx
+Uses37=prjKEXPCheck.ocx
+Uses38=ChamaleonButton.ocx
+Uses39=COMCTL32.OCX
+Uses40=ECNVB6LIB.dll
+Uses41=ECNVB6WINCTRL.ocx
+
+[apigid32.dll <000A>]
+Dest=$(WinSysPath)
+Date=28/06/2010
+Time=03:49
+Version=5.1.0.0
+
+[APIGUIDE.DLL <000A>]
+Dest=$(WinSysPath)
+Date=09/07/1993
+Time=00:33
+Version=1.1.0.0
+
+[MSBIND.DLL <000A>]
+Dest=$(WinSysPath)
+Date=15/07/2000
+Time=00:00
+Version=6.0.88.62
+
+[MSDBRPTR.DLL <000A>]
+Dest=$(WinSysPath)
+Date=15/07/2000
+Time=00:00
+Version=6.0.88.4
+
+[MSWORD.OLB <000A>]
+Dest=$(WinSysPath)
+Date=22/03/2007
+Time=19:05
+Version=11.0.8161.0
+
+[wshom.ocx <000A>]
+Dest=$(WinSysPath)
+Date=14/04/2008
+Time=07:48
+Version=5.7.0.16599
+
+[MSADODC.OCX <000A>]
+Dest=$(WinSysPath)
+Date=22/05/2000
+Time=00:00
+Version=6.0.88.4
+
+[ssdw3b32.ocx <000A>]
+Dest=$(WinSysPath)
+Date=18/11/1999
+Time=08:42
+Version=3.1.2.15
+
+[FuncButt.ocx <000A>]
+Dest=$(WinSysPath)
+Date=15/03/2003
+Time=15:46
+Version=1.0.0.0
+
+[MSFLXGRD.OCX <000A>]
+Dest=$(WinSysPath)
+Date=22/05/2000
+Time=00:00
+Version=6.0.84.18
+
+[MSMASK32.OCX <000A>]
+Dest=$(WinSysPath)
+Date=22/05/2000
+Time=00:00
+Version=6.0.84.18
+
+[labels.ocx <000A>]
+Dest=$(WinSysPath)
+Date=15/03/2003
+Time=15:46
+Version=1.0.0.0
+
+[TABCTL32.OCX <000A>]
+Dest=$(WinSysPath)
+Date=06/12/2000
+Time=00:00
+Version=6.0.90.43
+
+[IGToolBars50.ocx <000A>]
+Dest=$(WinSysPath)
+Date=23/01/2003
+Time=09:30
+Version=5.0.1.19
+
+[COMCTL32.OCX <000A>]
+Dest=$(WinSysPath)
+Date=09/03/2004
+Time=00:00
+Version=6.0.81.5
+
+[ECNVB6LIB.dll <000A>]
+Dest=$(WinSysPath)
+Date=22/10/2016
+Time=13:03
+Version=1.0.0.0
+
+[ECNVB6WINCTRL.ocx <000A>]
+Dest=$(WinSysPath)
+Date=22/10/2016
+Time=13:02
+Version=1.0.0.0

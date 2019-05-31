@@ -1,0 +1,11 @@
+Línea 58: la clase ECNVB6WINCTRL.ucLabel del control lblSistema no era una clase de control cargada.
+Línea 80: la clase ECNVB6WINCTRL.ucLabel del control lblEmpresa no era una clase de control cargada.
+Línea 113: la clase ECNVB6WINCTRL.ucButton_02 del control btnConectar no era una clase de control cargada.
+Línea 150: la clase ECNVB6WINCTRL.ucLabel del control lblProceso no era una clase de control cargada.
+Línea 169: la clase ECNVB6WINCTRL.ucImage del control icnConnect no era una clase de control cargada.
+Línea 189: la clase ECNVB6WINCTRL.ucButton_02 del control btnSalir no era una clase de control cargada.
+Línea 218: la clase ECNVB6WINCTRL.ucProgressBar del control prbConectar no era una clase de control cargada.
+Línea 257: la clase ECNVB6WINCTRL.ucButton_02 del control btnRedWin no era una clase de control cargada.
+Línea 365: la clase ECNVB6WINCTRL.ucButton_02 del control btnLocal no era una clase de control cargada.
+Línea 393: la clase ECNVB6WINCTRL.ucButton_02 del control btnRed no era una clase de control cargada.
+Línea 501: la clase ECNVB6WINCTRL.ucImageList del control imlConexion no era una clase de control cargada.

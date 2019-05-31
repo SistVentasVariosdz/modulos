@@ -1,0 +1,12 @@
+[History]
+1=#P0#=mb	#P1#=txtServidor_KeyPress	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/txtServidor_KeyPress	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130712175032	#P7#=0	#P8#=-4	.
+2=#P0#=mb	#P1#=tmrProgressBar_Timer	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/tmrProgressBar_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130712174621	#P7#=0	#P8#=4	.
+3=#P0#=mb	#P1#=btnConectar_Click	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/btnConectar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130712173454	#P7#=0	#P8#=3	.
+4=#P0#=mb	#P1#=tmrConexion_Timer	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/tmrConexion_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130712143333	#P7#=0	#P8#=1	.
+5=#P0#=mb	#P1#=icnConnect_MouseExit	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/icnConnect_MouseExit	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130708175925	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=Form_Load	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130708174018	#P7#=0	#P8#=4	.
+7=#P0#=mb	#P1#=Class_Initialize	#P2#=ECNVB6WINADDIN/cls003_ECNCONEXION/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130708172504	#P7#=0	#P8#=3	.
+8=#P0#=mb	#P1#=MODO_WIN	#P2#=ECNVB6WINADDIN/cls003_ECNCONEXION/MODO_WIN [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20130708101257	#P7#=0	#P8#=0	.
+9=#P0#=mb	#P1#=PU_003_ADO	#P2#=ECNVB6WINADDIN/mdl003_ECNCONEXION/PU_003_ADO	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130708100241	#P7#=0	#P8#=5	.
+10=#P0#=mb	#P1#=icnConnect_MouseEnter	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/icnConnect_MouseEnter	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130708095405	#P7#=0	#P8#=1	.
+11=#P0#=mb	#P1#=btnRed_Click	#P2#=ECNVB6WINADDIN/frm003_ECNCONEXION/btnRed_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130708095349	#P7#=0	#P8#=21	.

@@ -1,0 +1,26 @@
+Línea 28: la clase ECNVB6WINCTRL.ucLabel del control ucLabel1 no era una clase de control cargada.
+Línea 50: la clase ECNVB6WINCTRL.ucButton_02 del control btnAceptar no era una clase de control cargada.
+Línea 105: la clase ECNVB6WINCTRL.ucLabel del control ucLabel2 no era una clase de control cargada.
+Línea 126: la clase ECNVB6WINCTRL.ucLabel del control ucLabel3 no era una clase de control cargada.
+Línea 34: el nombre de la propiedad _ExtentX de ucLabel1 no es válido.
+Línea 35: el nombre de la propiedad _ExtentY de ucLabel1 no es válido.
+Línea 36: el nombre de la propiedad Caption de ucLabel1 no es válido.
+Línea 56: el nombre de la propiedad _ExtentX de btnAceptar no es válido.
+Línea 57: el nombre de la propiedad _ExtentY de btnAceptar no es válido.
+Línea 58: el nombre de la propiedad Icon de btnAceptar no es válido.
+Línea 59: el nombre de la propiedad Caption de btnAceptar no es válido.
+Línea 60: el nombre de la propiedad iNonThemeStyle de btnAceptar no es válido.
+Línea 62: el nombre de la propiedad Object.ToolTipText de btnAceptar no es válido.
+Línea 63: el nombre de la propiedad ToolTipTitle de btnAceptar no es válido.
+Línea 64: el nombre de la propiedad ToolTipIcon de btnAceptar no es válido.
+Línea 65: el nombre de la propiedad ToolTipType de btnAceptar no es válido.
+Línea 66: el nombre de la propiedad ttForeColor de btnAceptar no es válido.
+Línea 76: el nombre de la propiedad MaskColor de btnAceptar no es válido.
+Línea 77: el nombre de la propiedad UseMaskColor de btnAceptar no es válido.
+Línea 78: el nombre de la propiedad RoundedBordersByTheme de btnAceptar no es válido.
+Línea 111: el nombre de la propiedad _ExtentX de ucLabel2 no es válido.
+Línea 112: el nombre de la propiedad _ExtentY de ucLabel2 no es válido.
+Línea 113: el nombre de la propiedad Caption de ucLabel2 no es válido.
+Línea 132: el nombre de la propiedad _ExtentX de ucLabel3 no es válido.
+Línea 133: el nombre de la propiedad _ExtentY de ucLabel3 no es válido.
+Línea 134: el nombre de la propiedad Caption de ucLabel3 no es válido.

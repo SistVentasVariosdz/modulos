@@ -1,0 +1,7 @@
+[History]
+1=#P0#=mb	#P1#=ConectarBD	#P2#=Pedidos/Module1/ConectarBD	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20160704164052	#P7#=0	#P8#=0	.
+2=#P0#=mb	#P1#=Valida_usuario	#P2#=Pedidos/FrmLogin/Valida_usuario	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20160704164022	#P7#=0	#P8#=3	.
+3=#P0#=mb	#P1#=cmdOK_Click	#P2#=Pedidos/FrmLogin/cmdOK_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20160704164309	#P7#=0	#P8#=16	.
+4=#P0#=mb	#P1#=ConectarBD1	#P2#=Pedidos/Module1/ConectarBD1	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20160627105127	#P7#=0	#P8#=0	.
+5=#P0#=mb	#P1#=Main	#P2#=Pedidos/Module1/Main	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20160704164116	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=Form_Load	#P2#=Pedidos/FrmLogin/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20160704163215	#P7#=0	#P8#=24	.

@@ -1,0 +1,33 @@
+Línea 48: la clase ECNVB6WINCTRL.ucLabel del control lblSistema no era una clase de control cargada.
+Línea 129: la clase ECNVB6WINCTRL.ucButton_02 del control cmdOK no era una clase de control cargada.
+Línea 159: la clase ECNVB6WINCTRL.ucButton_02 del control Command1 no era una clase de control cargada.
+Línea 54: el nombre de la propiedad _ExtentX de lblSistema no es válido.
+Línea 55: el nombre de la propiedad _ExtentY de lblSistema no es válido.
+Línea 56: el nombre de la propiedad Caption de lblSistema no es válido.
+Línea 59: el nombre de la propiedad ShadowColor de lblSistema no es válido.
+Línea 136: el nombre de la propiedad _ExtentX de cmdOK no es válido.
+Línea 137: el nombre de la propiedad _ExtentY de cmdOK no es válido.
+Línea 138: el nombre de la propiedad Icon de cmdOK no es válido.
+Línea 139: el nombre de la propiedad Style de cmdOK no es válido.
+Línea 140: el nombre de la propiedad Caption de cmdOK no es válido.
+Línea 141: el nombre de la propiedad iNonThemeStyle de cmdOK no es válido.
+Línea 142: el nombre de la propiedad Object.ToolTipText de cmdOK no es válido.
+Línea 143: el nombre de la propiedad ToolTipTitle de cmdOK no es válido.
+Línea 144: el nombre de la propiedad ToolTipIcon de cmdOK no es válido.
+Línea 145: el nombre de la propiedad ToolTipType de cmdOK no es válido.
+Línea 146: el nombre de la propiedad ttForeColor de cmdOK no es válido.
+Línea 156: el nombre de la propiedad MaskColor de cmdOK no es válido.
+Línea 157: el nombre de la propiedad RoundedBordersByTheme de cmdOK no es válido.
+Línea 166: el nombre de la propiedad _ExtentX de Command1 no es válido.
+Línea 167: el nombre de la propiedad _ExtentY de Command1 no es válido.
+Línea 168: el nombre de la propiedad Icon de Command1 no es válido.
+Línea 169: el nombre de la propiedad Style de Command1 no es válido.
+Línea 170: el nombre de la propiedad Caption de Command1 no es válido.
+Línea 171: el nombre de la propiedad iNonThemeStyle de Command1 no es válido.
+Línea 172: el nombre de la propiedad Object.ToolTipText de Command1 no es válido.
+Línea 173: el nombre de la propiedad ToolTipTitle de Command1 no es válido.
+Línea 174: el nombre de la propiedad ToolTipIcon de Command1 no es válido.
+Línea 175: el nombre de la propiedad ToolTipType de Command1 no es válido.
+Línea 176: el nombre de la propiedad ttForeColor de Command1 no es válido.
+Línea 186: el nombre de la propiedad MaskColor de Command1 no es válido.
+Línea 187: el nombre de la propiedad RoundedBordersByTheme de Command1 no es válido.

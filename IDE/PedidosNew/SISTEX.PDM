@@ -1,0 +1,173 @@
+[Root]
+Most Recent Package=Paquete de instalación SISTEX
+
+
+[Package|Paquete de instalación SISTEX|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ECN\IDE\PedidosNew\Paquete
+
+[Package|Paquete de instalación SISTEX|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación SISTEX|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación SISTEX|Files Found]
+apigid32.dll=C:\Archivos de programa\Gestion de Pedidos\apigid32.dll
+APIGUIDE.DLL=C:\Archivos de programa\Gestion de Pedidos\APIGUIDE.DLL
+
+[Package|Paquete de instalación SISTEX|Files Released]
+
+[Package|Paquete de instalación SISTEX|Missing Dependency Information]
+C:\Archivos de programa\Gestion de Pedidos\MSCOMCTL.OCX=
+
+[Package|Paquete de instalación SISTEX|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Paquete de instalación SISTEX|Files Added]
+
+[Package|Paquete de instalación SISTEX|Files Removed]
+
+[Package|Paquete de instalación SISTEX|Files In Project]
+C:\ECN\IDE\PedidosNew\SISTEX.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\Archivos de programa\Gestion de Pedidos\apigid32.dll=Yes
+C:\Archivos de programa\Gestion de Pedidos\APIGUIDE.DLL=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\STDFTES.DLL=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSDBRPTR.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado26.tlb=Yes
+C:\Archivos de programa\Gestion de Pedidos\scrrun.dll=Yes
+C:\Archivos de programa\Gestion de Pedidos\MDIExtender.ocx=Yes
+C:\Archivos de programa\Sistemas\Gestion Empresarial\LibraryVB.dll=Yes
+C:\Archivos de programa\Microsoft Office\OFFICE11\MSWORD.OLB=Yes
+C:\WINDOWS\system32\wshom.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSADODC.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSDATGRD.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSDATLST.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\COMDLG32.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\ssdw3b32.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\FuncButt.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\Mantenimientos.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSCOMCT2.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSFLXGRD.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\THREED32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\mfc40loc.dll=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSMASK32.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\labels.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\TABCTL32.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSHFLXGD.OCX=Yes
+C:\Archivos de programa\Gestion de Pedidos\GridEX20.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\IGToolBars50.ocx=Yes
+C:\WINDOWS\floatbutton.ocx=Yes
+C:\WINDOWS\prjKEXPCheck.ocx=Yes
+C:\WINDOWS\ChamaleonButton.ocx=Yes
+C:\Archivos de programa\Gestion de Pedidos\COMCTL32.OCX=Yes
+C:\ECN\IDE\ECNVB6LIB.dll=Yes
+C:\ECN\IDE\ECNVB6WINCTRL.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Archivos de programa\Gestion de Pedidos\MSCOMCTL.OCX=Yes
+
+[Package|Paquete de instalación SISTEX|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación SISTEX|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación SISTEX|Install Locations]
+C:\ECN\IDE\PedidosNew\SISTEX.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\apigid32.dll=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\APIGUIDE.DLL=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSDBRPTR.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado26.tlb=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\scrrun.dll=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MDIExtender.ocx=$(WinSysPath)
+C:\Archivos de programa\Sistemas\Gestion Empresarial\LibraryVB.dll=$(WinSysPath)
+C:\Archivos de programa\Microsoft Office\OFFICE11\MSWORD.OLB=$(WinSysPath)
+C:\WINDOWS\system32\wshom.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSDATGRD.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSDATLST.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\COMDLG32.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\ssdw3b32.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\FuncButt.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\Mantenimientos.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSCOMCT2.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSFLXGRD.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\THREED32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Gestion de Pedidos\MSMASK32.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\labels.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\TABCTL32.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\MSHFLXGD.OCX=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\GridEX20.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\IGToolBars50.ocx=$(WinSysPath)
+C:\WINDOWS\floatbutton.ocx=$(WinSysPath)
+C:\WINDOWS\prjKEXPCheck.ocx=$(WinSysPath)
+C:\WINDOWS\ChamaleonButton.ocx=$(WinSysPath)
+C:\Archivos de programa\Gestion de Pedidos\COMCTL32.OCX=$(WinSysPath)
+C:\ECN\IDE\ECNVB6LIB.dll=$(WinSysPath)
+C:\ECN\IDE\ECNVB6WINCTRL.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Archivos de programa\Gestion de Pedidos\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|Paquete de instalación SISTEX|Configure Shared Files]
+Applicable=Yes
+C:\ECN\IDE\PedidosNew\SISTEX.exe=Yes
+
+[Package|Paquete de instalación SISTEX|Distribution]
+Type=single
+Size=
+Title=SITIred - SISTEX
+
+[Package|Paquete de instalación SISTEX|Package]
+PackageFolder=C:\ECN\IDE\PedidosNew\Paquete
+ProjectFolder=C:\ECN\IDE\PedidosNew
+ServerSideCab=
+File1=C:\ECN\IDE\PedidosNew\Paquete\setup.exe
+File2=C:\ECN\IDE\PedidosNew\Paquete\Setup.Lst
+File3=C:\ECN\IDE\PedidosNew\Paquete\SISTEX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Paquete de instalación SISTEX|IconGroups]
+Group0=SITIred - SISTEX
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación SISTEX|SITIred - SISTEX]
+Icon1=SISTEX.exe
+Title1=SITIred - SISTEX
+StartIn1=$(AppPath)
+Key1=Icon1

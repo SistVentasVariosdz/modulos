@@ -1,0 +1,3 @@
+Línea 11: la propiedad MaskPicture de ScrollControl tenía una referencia a archivo no válida.
+Línea 12: la propiedad MouseIcon de ScrollControl tenía una referencia a archivo no válida.
+Línea 16: la propiedad ToolboxBitmap de ScrollControl tenía una referencia a archivo no válida.
